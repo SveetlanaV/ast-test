@@ -1,0 +1,32 @@
+@import "compass/typography";
+@import "compass/css3/transform";
+@import "compass/css3/font-face";
+@include font-face("OswaldBold", font-files("Oswald-Bold.ttf"));
+@include font-face("OpenSansRegular", font-files("OpenSans-Regular.ttf"));
+@include font-face("OpenSansBold", font-files("OpenSans-Bold.ttf"));
+@include font-face("OpenSansLight", font-files("OpenSans-Light.ttf"));
+
+@import "compass/typography/links/link-colors";
+@import "compass/typography/vertical_rhythm";
+@include establish-baseline;
+
+$base-font-family: "OpenSansRegular", sans-serif;
+$base-font-size: 12px;
+$base-line-height: 16px;
+
+$text-color: #282828;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin clearfix {
+    &:after {
+		content: "";
+        display: table;
+        clear: both;
+	}
+}

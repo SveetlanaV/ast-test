@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "OswaldBold";
+  src: url('fonts/Oswald-Bold.ttf?1330466400') format('truetype');
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url('fonts/OpenSans-Regular.ttf?1296597600') format('truetype');
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: url('fonts/OpenSans-Bold.ttf?1296597600') format('truetype');
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url('fonts/OpenSans-Light.ttf?1296597600') format('truetype');
+}
+/* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+@media (min-width: 683px) {
+  /* line 3, ../scss/tablet.scss */
+  .item {
+    padding: 36px 36px;
+  }
+
+  /* line 6, ../scss/tablet.scss */
+  .product-image {
+    float: left;
+    margin-right: 20px;
+  }
+  /* line 9, ../scss/tablet.scss */
+  .product-image img {
+    max-width: 335px;
+  }
+
+  /* line 14, ../scss/tablet.scss */
+  .product-details h1 {
+    padding-left: 3px;
+    font-size: 2em;
+    line-height: 1.25em;
+    color: #2c303d;
+  }
+  /* line 19, ../scss/tablet.scss */
+  .product-details .product-id {
+    font-size: 0.91667em;
+    line-height: 2.95455em;
+    margin-top: -10px;
+    padding-bottom: 17px;
+    display: block;
+    margin-left: -1px;
+  }
+  /* line 26, ../scss/tablet.scss */
+  .product-details .product-info {
+    padding: 0 0 0 40px;
+    position: relative;
+  }
+  /* line 30, ../scss/tablet.scss */
+  .product-details .product-price {
+    font-size: 3em;
+    line-height: 0.20444em;
+  }
+  /* line 32, ../scss/tablet.scss */
+  .product-details .product-price .price-cost {
+    padding-right: 29px;
+  }
+  /* line 36, ../scss/tablet.scss */
+  .product-details .rating {
+    padding-top: 2px;
+  }
+  /* line 39, ../scss/tablet.scss */
+  .product-details .product-description {
+    font-family: "OpenSansLight", sans-serif;
+  }
+  /* line 41, ../scss/tablet.scss */
+  .product-details .product-description h3 {
+    font-family: "OpenSansBold", sans-serif;
+    font-size: 1.16667em;
+    line-height: 1.14286em;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 8px;
+    letter-spacing: 0.025em;
+  }
+  /* line 49, ../scss/tablet.scss */
+  .product-details .product-description p {
+    padding: 0 0 20px;
+  }
+  /* line 53, ../scss/tablet.scss */
+  .product-details .product-share {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+  /* line 57, ../scss/tablet.scss */
+  .product-details .product-share li {
+    display: block;
+    margin: 0 0 0 0;
+  }
+
+  /* line 63, ../scss/tablet.scss */
+  .form-size {
+    text-align: left;
+    overflow: hidden;
+  }
+  /* line 66, ../scss/tablet.scss */
+  .form-size ul {
+    padding-bottom: 20px;
+  }
+  /* line 69, ../scss/tablet.scss */
+  .form-size li {
+    text-align: center;
+    margin: 0 8px;
+  }
+  /* line 73, ../scss/tablet.scss */
+  .form-size li:first-child {
+    margin-left: 0;
+  }
+  /* line 76, ../scss/tablet.scss */
+  .form-size label {
+    font-size: 0.7em;
+    line-height: 2.32143em;
+    padding-bottom: 4px;
+  }
+  /* line 80, ../scss/tablet.scss */
+  .form-size .button {
+    margin: 0;
+    padding: 0 46px 0 44px;
+    height: 44px;
+  }
+
+  /* line 86, ../scss/tablet.scss */
+  h2 {
+    font-size: 1.83333em;
+    line-height: 1.47727em;
+    letter-spacing: 0.075em;
+    padding-top: 54px;
+    padding-bottom: 8px;
+    margin-left: -8px;
+  }
+
+  /* line 93, ../scss/tablet.scss */
+  .col-50 {
+    width: 50%;
+  }
+
+  /* line 97, ../scss/tablet.scss */
+  .grid li {
+    float: left;
+    padding: 19px 0;
+  }
+  /* line 101, ../scss/tablet.scss */
+  .grid li:nth-child(2n) {
+    padding-left: 20px;
+  }
+  /* line 104, ../scss/tablet.scss */
+  .grid .grid-image {
+    height: 284px;
+    width: 300px;
+  }
+  /* line 108, ../scss/tablet.scss */
+  .grid .grid-price {
+    font-size: 1.83333em;
+    line-height: 1.47727em;
+    height: 30px;
+    bottom: 0;
+    letter-spacing: 0.075em;
+  }
+
+  /* line 115, ../scss/tablet.scss */
+  .tablet-none {
+    display: none;
+  }
+}

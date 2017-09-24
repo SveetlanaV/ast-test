@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "OswaldBold";
+  src: url('fonts/Oswald-Bold.ttf?1330466400') format('truetype');
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url('fonts/OpenSans-Regular.ttf?1296597600') format('truetype');
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: url('fonts/OpenSans-Bold.ttf?1296597600') format('truetype');
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url('fonts/OpenSans-Light.ttf?1296597600') format('truetype');
+}
+/* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+@media (min-width: 860px) {
+  /* line 3, ../scss/desktop.scss */
+  .item {
+    padding: 0;
+    max-width: 835px;
+    margin: auto;
+  }
+
+  /* line 9, ../scss/desktop.scss */
+  .product-details h1 {
+    position: relative;
+    top: 22px;
+    left: 455px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    max-width: 365px;
+  }
+  /* line 17, ../scss/desktop.scss */
+  .product-details .product-image {
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    margin-right: 58px;
+  }
+  /* line 22, ../scss/desktop.scss */
+  .product-details .product-image img {
+    max-width: 398px;
+  }
+  /* line 26, ../scss/desktop.scss */
+  .product-details .product-info {
+    top: 29px;
+  }
+  /* line 29, ../scss/desktop.scss */
+  .product-details .product-id {
+    font-size: 0.83333em;
+    line-height: 3.25em;
+  }
+  /* line 32, ../scss/desktop.scss */
+  .product-details .product-price {
+    font-size: 2em;
+    line-height: 0.30667em;
+  }
+  /* line 34, ../scss/desktop.scss */
+  .product-details .product-price .price-cost {
+    padding-right: 25px;
+  }
+  /* line 38, ../scss/desktop.scss */
+  .product-details .share-link {
+    display: inline-block;
+    position: relative;
+    padding-left: 17px;
+    font-size: 1.5em;
+    line-height: 0.88889em;
+    font-family: "OpenSansBold", sans-serif;
+    letter-spacing: 0.025em;
+    color: #2c87ce;
+  }
+  /* line 46, ../scss/desktop.scss */
+  .product-details .share-link a:hover, .product-details .share-link a:focus, .product-details .share-link a:visited {
+    color: #2c87ce;
+  }
+  /* line 51, ../scss/desktop.scss */
+  .product-details .product-share li {
+    float: left;
+    padding: 0 6px;
+  }
+  /* line 55, ../scss/desktop.scss */
+  .product-details .product-share li:first-child {
+    padding-left: 0;
+  }
+  /* line 59, ../scss/desktop.scss */
+  .product-details .rating {
+    overflow: visible;
+    padding-top: 11px;
+  }
+  /* line 64, ../scss/desktop.scss */
+  .product-details .product-description p {
+    padding: 22px 0 29px;
+  }
+  /* line 68, ../scss/desktop.scss */
+  .product-details .modal-dialog {
+    position: absolute;
+    top: 34%;
+    left: 56%;
+    display: none;
+    width: 287px;
+    height: 107px;
+    background: #fff;
+    padding: 15px 0 0 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  /* line 80, ../scss/desktop.scss */
+  .product-details .modal-dialog h3 {
+    padding: 0 0 15px;
+    font-size: 1.5em;
+    line-height: 0.88889em;
+    font-family: "OpenSansBold", sans-serif;
+    letter-spacing: 0.025em;
+    color: #2c87ce;
+    display: inline-block;
+  }
+  /* line 88, ../scss/desktop.scss */
+  .product-details .modal-dialog:after {
+    content: '';
+    position: absolute;
+    right: 110px;
+    top: -30px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+  }
+  /* line 96, ../scss/desktop.scss */
+  .product-details .modal-dialog .close {
+    float: right;
+    font-size: 31px;
+    margin-top: -10px;
+    margin-right: 15px;
+  }
+  /* line 103, ../scss/desktop.scss */
+  .product-details .modal-dialog:target {
+    display: block;
+    pointer-events: auto;
+  }
+  /* line 108, ../scss/desktop.scss */
+  .product-details label {
+    float: left;
+    padding-right: 18px;
+  }
+
+  /* line 114, ../scss/desktop.scss */
+  .form-size ul {
+    overflow: hidden;
+    padding-bottom: 23px;
+  }
+  /* line 118, ../scss/desktop.scss */
+  .form-size li {
+    float: left;
+    margin: 0 6px;
+  }
+
+  /* line 123, ../scss/desktop.scss */
+  h2 {
+    text-align: left;
+    padding-top: 48px;
+    padding-bottom: 11px;
+    margin-left: 0;
+  }
+
+  /* line 129, ../scss/desktop.scss */
+  .col-33 {
+    width: 33%;
+  }
+
+  /* line 133, ../scss/desktop.scss */
+  .grid li {
+    padding: 0;
+  }
+  /* line 136, ../scss/desktop.scss */
+  .grid li:nth-child(2n) {
+    padding-left: 0;
+  }
+  /* line 139, ../scss/desktop.scss */
+  .grid li:nth-child(3n+2) {
+    padding-left: 8px;
+  }
+  /* line 142, ../scss/desktop.scss */
+  .grid li:nth-child(3n+3) {
+    float: right;
+  }
+  /* line 145, ../scss/desktop.scss */
+  .grid .grid-image {
+    height: 265px;
+    width: 265px;
+    margin-bottom: 13px;
+  }
+  /* line 149, ../scss/desktop.scss */
+  .grid .grid-image img {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    max-width: none;
+  }
+  /* line 156, ../scss/desktop.scss */
+  .grid .grid-price {
+    font-size: 1.33333em;
+    line-height: 1.5em;
+    height: 22px;
+    bottom: 22px;
+    left: inherit;
+    right: 0;
+    width: auto;
+    padding: 0 6px;
+  }
+  /* line 165, ../scss/desktop.scss */
+  .grid .price-cost {
+    display: inline-block;
+  }
+
+  /* line 169, ../scss/desktop.scss */
+  .desktop-none {
+    display: none;
+  }
+}
