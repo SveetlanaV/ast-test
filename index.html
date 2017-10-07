@@ -5,17 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 		<title>New Shop</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+		$(function() {
+$( ".openModal" ).click(function() {
+  $( ".modal-dialog" ).toggle( );
+});
+$(".close").click( function(){
+  $(this).parents(".modal-dialog").hide()
+});
+});
+</script>
 	</head>
 <body>
 	<section class="item">
 		<div class="product-details">
-		<h1>For gamers by gamers TEE</h1>
+		<h1>Вишнева сукня Серце</h1>
 			<div class="product-image">
                 <img src="images/lightbringer-trans.jpg" alt="">
             </div>
 			<div class="product-info">
-				<div class="product-id">Item #: 701642853695</div>
+				<div class="product-id">Артикул: 00200</div>
 				<div class="product-price"><span class="price-cost">$<s>29.50</s></span><span class="price-sale">$19.99</span>
 				</div>
 					<ul class="rating">
@@ -25,10 +35,12 @@
                         <li class="star"></li>
                         <li></li>
                     </ul>
-				<div class="share-link mobile-none tablet-none"><a href="#openModal" class="">Share it!</a>
+					
+				<div class="share-link mobile-none tablet-none"><a href="#" class="openModal">Поділитись!</a>
 				</div>
-				<div class="product-share modal-dialog" id="openModal">
-					<h3 class="share-link mobile-none tablet-none">Share with</h3>
+				
+				<div class="product-share modal-dialog">
+					<h3 class="share-link mobile-none tablet-none">Поділитись в</h3>
 					<a href="#close" title="Close" class="share-link close mobile-none tablet-none">×</a>
                         <ul>
                             <li><a href="#"><i class="icon-fb"></i></a></li>
@@ -39,12 +51,12 @@
 						</ul>
                 </div>
 				<div class="product-description">
-					<h3 class="detail mobile-none desktop-none">Details:</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<h3 class="detail mobile-none desktop-none">Опис:</h3>
+                    <p>Бавовняна жіноча сукня вишневого кольору ручної роботи українського дизайнера з принтом Зимове Серце від українських стріт-арт художників. Легка літня сукня створена з вишневого куліру (90% бавовна та 10% еластан), має довжину до коліна, закриті плечі, ніжно-сіре оздоблення широкого вирізу горловини та коротких рукавів.</p>
                 </div>
 				<form action="" class="form-size">
                     <div class="select-size">
-                        <label><span class="desktop-none">select a </span>size:</label>
+                        <label><span class="desktop-none">вибрати </span>розмір:</label>
                         <ul>
                             <li>XS</li>
                             <li>S</li>
@@ -52,12 +64,12 @@
                             <li>L</li>
                         </ul>
                     </div>
-                    <input type="submit" value="Add to Cart" class="button" />
+                    <input type="submit" value="В кошик" class="button" />
                 </form>
 			</div>
 		</div>
 		<div class="slider">
-			<h2>YOU MAY ALSO LIKE</h2>
+			<h2>Також сподобається</h2>
 			<div class="cover">
 				<a class="prev" href="#"></a>
 				<a class="next" href="#"></a>
